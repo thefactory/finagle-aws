@@ -2,9 +2,9 @@ name := "finagle-aws"
 
 organization := "com.heroku"
 
-version := "6.20.0.0-SNAPSHOT"
+version := "6.20.0.1-SNAPSHOT"
 
-scalaVersion := "2.10.2"
+scalaVersion := "2.10.4"
 
 parallelExecution in Test := false
 
