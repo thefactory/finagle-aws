@@ -2,7 +2,7 @@ name := "finagle-aws"
 
 organization := "com.heroku"
 
-version := "6.10.0.2-SNAPSHOT"
+version := "6.20.0.0-SNAPSHOT"
 
 scalaVersion := "2.10.2"
 
@@ -24,8 +24,8 @@ publishTo <<= version { (v: String) =>
 }
 
 libraryDependencies ++= Seq(
-   "com.twitter" %% "finagle-core" % "6.10.0",
-   "com.twitter" %% "finagle-http" % "6.10.0",
+   "com.twitter" %% "finagle-core" % "6.20.0",
+   "com.twitter" %% "finagle-http" % "6.20.0",
    "joda-time" % "joda-time" % "1.6.2",
    "org.scalatest" %% "scalatest" % "1.9.1" % "test"
 )
